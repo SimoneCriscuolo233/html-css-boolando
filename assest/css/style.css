@@ -35,6 +35,32 @@ main {
   justify-content: center;
 }
 
+footer {
+  padding: 20px 20px;
+  color: #fff;
+  background-color: #1A1A1A;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+footer div a {
+  text-decoration: none;
+  margin: 0px 5px;
+  color: #fff;
+  flex-wrap: nowrap;
+}
+
+
+
+.footer-icon .fa-brands {
+  margin: 0 3px;
+  border-radius: 10%;
+  padding: 2px 3px;
+  background-color: #fff;
+  color: #1A1A1A;
+}
+
 .icon .fa-regular,
 .fa-solid {
   margin: 0px 5px;
@@ -147,8 +173,4 @@ button:hover {
 
 .card:hover .img-default {
   display: none;
-}
-
-p span {
-  margin-top: 3px;
 }
