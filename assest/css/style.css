@@ -121,6 +121,7 @@ button:hover {
 
 .deleted {
   text-decoration: line-through;
+  color: #5a5a5a;
 }
 
 .bg-red {
@@ -146,4 +147,8 @@ button:hover {
 
 .card:hover .img-default {
   display: none;
+}
+
+p span {
+  margin-top: 3px;
 }
