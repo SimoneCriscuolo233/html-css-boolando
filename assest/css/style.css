@@ -46,13 +46,12 @@ main {
   background-color: aqua;
   width: 1800px;
   margin: 200px 0px;
-  gap: 70px;
+  gap: 20px;
 }
 
 .col-33 {
-  width: calc(100% / 3 - 70px);
-  background-color: beige;
-  border: 1px solid black;
+  width: calc(100% / 3 - 20px);
+  margin-bottom: 20px;
 }
 
 .d-flex {
@@ -79,8 +78,32 @@ main {
   padding: 5px;
   color: white;
   position: absolute;
-  bottom: 40;
-  left: 0;
+  bottom: 40px;
+  font-size: 0.9em;
+}
+
+.heart {
+  padding: 5px 25px;
+  color: #000;
+  background-color: #fff;
+  position: absolute;
+  right: 0px;
+  top: 30px;
+  font-size: 60px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.left-0 {
+  left: 0px
+}
+
+.left-40 {
+  left: 55px;
 }
 
 .col-33 p {
@@ -103,4 +126,25 @@ main {
 
 .bg-red {
   background-color: red;
+}
+
+.sustainability {
+  background-color: green;
+  font-weight: 600;
+}
+
+.img-hover {
+  display: none;
+}
+
+.img-default {
+  display: block;
+}
+
+.card:hover .img-hover {
+  display: block;
+}
+
+.card:hover .img-default {
+  display: none;
 }
