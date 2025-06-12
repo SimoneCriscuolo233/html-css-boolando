@@ -13,7 +13,6 @@ header {
   z-index: 1;
   background-color: #FF6900;
   align-items: center;
-  justify-content: space-evenly;
   width: 100%;
   padding: 20px 20px;
   box-shadow: 0px 2px 5px #7e7d7d;
@@ -70,8 +69,15 @@ footer div a {
 /*******Tools*********/
 .container {
   width: 1800px;
-  margin: 200px 0px;
   gap: 20px;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mx-200 {
+  margin: 200px 0px;
 }
 
 .col-33 {
@@ -81,6 +87,10 @@ footer div a {
 
 .d-flex {
   display: flex;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .flex-nowrap {
